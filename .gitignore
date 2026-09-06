@@ -1,0 +1,11 @@
+kaggle_datase/
+landmark_data/
+thanks/
+*.mp4
+*.npy
+*.pkl
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/

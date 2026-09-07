@@ -19,7 +19,7 @@ speech_queue = Queue()
 speech_request = None
 speech_status = 'Say a greeting or letter'
 
-with open('isl_FINAL.pkl', 'rb') as model_file:
+with open('isl_FINAL_SMALL.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 model, max_len = loaded_model if isinstance(loaded_model, tuple) else (loaded_model, 84)
 
